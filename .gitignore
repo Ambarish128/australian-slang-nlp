@@ -1,0 +1,90 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+#streamlit
+streamlit/
+
+# pyenv
+.python-version
+
+# venv / virtualenv folders
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# VSCode settings
+.vscode/
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# Streamlit specific cache
+.streamlit/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# dotenv environment variables file
+.env
+
+# macOS files (in case)
+.DS_Store
+
+# Ignore any other system files
+*.bak
+*.swp
+*~
+
+# Ignore python wheel caches
+*.whl
