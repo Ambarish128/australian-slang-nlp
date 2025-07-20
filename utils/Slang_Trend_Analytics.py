@@ -7,7 +7,7 @@ st.set_page_config(page_title="Slang Usage Trends", layout="wide")
 
 def load_data():
     try:
-        df = pd.read_csv(r"slang_data\slang_usage_counts.csv")
+        df = pd.read_csv(r"slang_data/slang_usage_counts.csv")
         return df
     except FileNotFoundError:
         st.error("Could not find slang_usage_counts.csv. Make sure the file exists in slang_data/")
