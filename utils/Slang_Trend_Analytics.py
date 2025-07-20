@@ -7,7 +7,16 @@ st.set_page_config(page_title="Slang Usage Trends", layout="wide")
 
 def load_data():
     try:
-        df = pd.read_csv(r"../slang_data/slang_usage_counts.csv")
+        # Get directory of this script (Slang_Trend_Analytics.py)
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Go one level up (because 'slang_data' is at same level as 'utils')
+        project_root = os.path.abspath(os.path.join(base_dir, ".."))
+
+        # Construct full path to the CSV file
+        csv_path = os.path.join(project_root, "slang_data", "slang_usage_counts.csv")
+
+        df = pd.read_csv(csv_path)
         return df
     except FileNotFoundError:
         st.error("Could not find slang_usage_counts.csv. Make sure the file exists in slang_data/")
