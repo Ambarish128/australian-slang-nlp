@@ -77,8 +77,8 @@ This project is ideal for anyone interested in Australian English, NLP pipelines
 
 1. Clone the repo:
    
-   git clone https://github.com/yourusername/aussie-slang-translator.git
-   cd aussie-slang-translator
+   git clone (https://github.com/Ambarish128/australian-slang-nlp)
+   cd aussie-slang-nlp
 
 2. Install dependencies:
     
